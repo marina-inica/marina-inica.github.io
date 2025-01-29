@@ -3,8 +3,8 @@ title: Marina Íñiguez
 subtitle: 
 email: marina_inica@proton.me
 description: 'Artista interdisciplinar, enfocada en escultura y artes audiovisuales'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https//marina-inica.github.io" # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
 author: Alejandro Garcia De La Fuente
 # street_address: 1234 Somewhere Road
 # city: Nashville
