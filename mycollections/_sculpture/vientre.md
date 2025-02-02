@@ -2,7 +2,7 @@
 layout: post
 
 title: Bendito es el fruto de tu vientre
-image: assets/images/pic07.jpg
+image: assets/images/sculpture/vientre/1.jpeg
 ---
 
 Pieza escultórica e instalativa cuya finalidad pretende ser una hoda oda a mis ancestras partiendo del vínculo existente entre mi abuela, mi madre y yo.

@@ -2,7 +2,7 @@
 layout: post
 title: La cuna
 description: El lado oculto de la maternidad
-image: assets/images/pic06.jpg
+image: assets/images/performance/la-cuna/1.jpeg
 ---
 
 Pieza en la cual se combinan disciplinas artísticas como la escultura, la instalación y la performance.

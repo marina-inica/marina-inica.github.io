@@ -4,7 +4,7 @@ permalink: /sculpture
 
 title: Escultura
 description: Colección de los proyectos escultóricos
-image: assets/images/pic10.jpg
+image: assets/images/sculpture.jpeg
 tema: sculpture
 nav-menu: true
 ---

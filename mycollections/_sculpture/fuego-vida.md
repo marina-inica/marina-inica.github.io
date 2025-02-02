@@ -2,7 +2,7 @@
 layout: post
 
 title: El fuego de la vida
-image: assets/images/pic03.jpg
+image: assets/images/sculpture/fuego-vida/1.jpeg
 ---
 
 Esta obra combina varias disciplinas artísiticas como la escultura, la instalación y la performance.

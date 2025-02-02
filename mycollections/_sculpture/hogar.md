@@ -2,7 +2,7 @@
 layout: post
 title: Hogar
 description: Referencia a la relación materno filial
-image: assets/images/pic06.jpg
+image: assets/images/sculpture/hogar/3.jpeg
 ---
 
 Escultura creada con la temática de la maternidad desde un punto personal tomando como referencia la relación materno-filial existente entre mi madre y mi abuela.

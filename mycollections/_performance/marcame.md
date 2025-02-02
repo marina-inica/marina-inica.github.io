@@ -2,7 +2,7 @@
 layout: post
 
 title: Márcame con una cruz
-image: assets/images/pic04.jpg
+image: assets/images/performance/marcame/1.jpeg
 ---
 
 Performance con tematica feminisita a través de la cual 13 personas del colectivo *Les matojo* y yo particiamos en la marcha del **8M** con carteles.
