@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  -->
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %} 
+    
+    
+    <!-- Main -->
+    <div id="main" class="alt">
+
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+            {% for p in site[page.tema] %}
+            {% assign mod = forloop.index0 | modulo: 2 %}
+            {% if mod == 0 %}
+                {% include imgsidecap.html 
+                    img-side="left"
+                    post=p
+                %}
+            {% else %}
+                {% include imgsidecap.html 
+                    img-side="right"
+                    post=p
+                %}
+            {% endif %}
+
+            {% unless forloop.last %}
+                <hr>
+            {% endunless %}
+            {% endfor %}
+        </div>
+      </section>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

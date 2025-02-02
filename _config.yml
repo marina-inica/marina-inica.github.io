@@ -1,7 +1,7 @@
 # site settings
 title: Marina Íñiguez
 subtitle: 
-email: marina_inica@proton.me
+email: marinainiguezcalero@gmail.com
 description: 'Artista interdisciplinar, enfocada en escultura y artes audiovisuales'
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
@@ -11,7 +11,7 @@ author: Alejandro Garcia De La Fuente
 # state: TN
 # zip_code: 55555
 # country: United States of America
-# phone: (716) 555-5555
+phone: 642 821 290
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -42,3 +42,14 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+
+# Collections
+collections_dir: mycollections
+collections:
+  sculpture:
+    output: true
+    permalink: /:collection/:name
+
+  performance:
+    output: true
+    permalink: /:collection/:name
