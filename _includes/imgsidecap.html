@@ -1,26 +1,26 @@
 {% assign p = include.post %}
-<a class="row" href="{{ include.collName | relative_url }}/{{ p.slug | slugify }}">
+<a class="row center" href="{{ include.collName | relative_url }}/{{ p.slug | slugify }}">
     {% if include.img_side or include.img-side == "left" %}
 
-    <div class="6u 12u$(small)">
+    <div class="6u 12u$(small) image-right">
         <span class="image fit">
             <img src="{{ site.baseurl}}/{{ p.image }}" alt="some"/>
         </span>
     </div>
 
-    <div class="6u 12u$(small)">
+    <div class="6u 12u$(small) text-left">
         <h2>{{ p.title }}</h2>
         {{ p.excerpt }}
     </div>
 
     {% else %}
 
-    <div class="6u 12u$(small)">
+    <div class="6u 12u$(small) text-right">
         <h2>{{ p.title }}</h2>
         {{ p.excerpt }}
     </div>
 
-    <div class="6u 12u$(small)">
+    <div class="6u 12u$(small) image-left">
         <span class="image fit">
             <img src="{{ site.baseurl}}/{{ p.image }}" alt="some"/>
         </span>

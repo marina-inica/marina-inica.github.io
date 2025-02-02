@@ -1,0 +1,17 @@
+a.center {
+    .text-left {
+        text-align: left;
+    }
+    .text-right {
+        text-align: right;
+    }
+
+    .image-left {
+        display: flex;
+        justify-content: start;
+    }
+    .image-right {
+        display: flex;
+        justify-content: end;
+    }
+}
