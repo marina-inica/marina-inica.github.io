@@ -1,5 +1,5 @@
 {% assign p = include.post %}
-<a class="row" href="{{ include.collName | relative_url | append: p.slug | slugify }}">
+<a class="row" href="{{ include.collName | absolute_url | append: p.slug | slugify }}">
     {% if include.img_side or include.img-side == "left" %}
 
     <div class="6u 12u$(small)">
