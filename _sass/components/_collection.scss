@@ -14,4 +14,22 @@ a.center {
         display: flex;
         justify-content: end;
     }
+
+    @media (max-width: 736px) {
+        .text-left {
+            text-align: center;
+        }
+        .text-right {
+            text-align: center;
+        }
+    
+        .image-left {
+            display: flex;
+            justify-content: center;
+        }
+        .image-right {
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
