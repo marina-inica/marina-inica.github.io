@@ -43,6 +43,11 @@ exclude:
 - CONTRIBUTING.md
 - README.md 
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Collections
 collections_dir: mycollections
 collections:
