@@ -36,6 +36,7 @@ markdown: kramdown
 
 sass:
   style: compressed
+  sourcemap: always
 
 exclude:
 - "*.gemspec"

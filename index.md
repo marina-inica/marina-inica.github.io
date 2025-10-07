@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'Marina Íñiguez'
-description: null
+description: Something
 image: null
 author: null
 show_tile: false

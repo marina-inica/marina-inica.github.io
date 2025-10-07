@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 {% include head.html %}
@@ -12,40 +7,27 @@
 
     {% include header.html %}
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main -->
-    <div id="main">
-
-        <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Biografía</h2>
-                </header>
-                <p>{{ content }}</p>
-                <!--
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-                -->
-            </div>
+    <main>
+        <!-- Banner -->
+        <section id="banner">
+            <h1>{{ page.landing-title }}</h1>
+            <hr />
+            
+            <p>{{site.description}}</p>
         </section>
 
-    </div>
+        <!-- Main -->
+        <section id="tiles">
+            {% include tiles.html %}
+        </section>
+
+        <section id="bio">
+            <header class="major">
+                <h2>Biografía</h2>
+            </header>
+            <p>{{ content }}</p>
+        </section>
+    </main>
 
     {% include footer.html %}
 

@@ -1,0 +1,126 @@
+#header {
+    display: flex;
+
+    position: sticky;
+    top: 0;
+
+    background-color: var(--bg);
+
+    justify-content: space-between;
+
+    padding: 1rem;
+
+    text-transform: uppercase;
+    letter-spacing: .23em;
+
+    font-weight: 600;
+    font-size: .9em;
+
+    .logo {
+        line-height: 1.5em;
+
+        padding: 0 .3em;
+        color: var(--bg);
+
+        background-color: var(--fg);
+
+        align-content: center;
+
+        transition: background-color 200ms;
+
+        &:hover {
+            background-color: var(--accent6);
+        }
+    }
+
+    .menu {
+        --hamburger-color: var(--fg);
+
+        color: var(--hamburger-color);
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        transition: color 200ms;
+
+        z-index: 999;
+
+        &:hover {
+            --hamburger-color: var(--accent6);
+        }
+
+        input {
+            appearance: none;
+        }
+
+        .hamburger {
+            height: 1.5em;
+
+            transition: fill 200ms;
+
+            .line {
+                transition: 
+                    y 200ms ease-in 200ms,
+                    transform 200ms ease-in,
+                    opacity 0ms 200ms
+                ;
+                transform-origin: center;
+            }
+        }
+
+        input:checked + .hamburger {
+            .line {
+                transition: 
+                    y 200ms ease-in,
+                    transform 200ms ease-in 200ms,
+                    opacity 0ms 200ms
+                ;
+            }
+            .bottom {
+                y: 45;
+                transform: rotate(-45deg);
+            }
+            .middle {
+                opacity: 0;
+            }
+            .top {
+                y: 45;
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
+
+#menu-nav {
+    position: fixed;
+    inset: 0;
+    background-color: var(--bg);
+    opacity: 0;
+    z-index: 90;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        list-style-type: none;
+        width: min(20em, 50%);
+        li {
+            border-top: solid 1px var(--border);
+
+            a {
+                line-height: 4em;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        li:first-child {
+            border-top: 0;
+        }
+    }
+}
+
+#header:has(#hamburger-checkbox:checked) #menu-nav {
+    opacity: .95;
+}
