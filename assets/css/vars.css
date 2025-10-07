@@ -15,4 +15,7 @@
     --accent6:			#797b7a;
 
     --font:             'Source Sans Pro', Helvetica, sans-serif;
+
+    --menu-button-z-index: 99;
+    --menu-z-index:     90;
 }

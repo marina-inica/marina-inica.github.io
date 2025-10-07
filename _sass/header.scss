@@ -1,9 +1,6 @@
 #header {
     display: flex;
 
-    position: sticky;
-    top: 0;
-
     background-color: var(--bg);
 
     justify-content: space-between;
@@ -43,7 +40,7 @@
 
         transition: color 200ms;
 
-        z-index: 999;
+        z-index: var(--menu-button-z-index);
 
         &:hover {
             --hamburger-color: var(--accent6);
@@ -96,15 +93,18 @@
     inset: 0;
     background-color: var(--bg);
     opacity: 0;
-    z-index: 90;
+    z-index: var(--menu-z-index);
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    transition: opacity 200ms ease-in;
+
     ul {
         list-style-type: none;
         width: min(20em, 50%);
+
         li {
             border-top: solid 1px var(--border);
 
@@ -121,6 +121,11 @@
     }
 }
 
-#header:has(#hamburger-checkbox:checked) #menu-nav {
-    opacity: .95;
+#header:has(#hamburger-checkbox:checked) {
+    position: sticky;
+    top: 0;
+
+    #menu-nav {
+        opacity: .95;
+    }
 }
