@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Hogar
+title: Hogar 1, 2025
 description: Referencia a la relación materno filial
 image: assets/images/sculpture/hogar/3.jpeg
 ---
 
-Escultura creada con la temática de la maternidad desde un punto personal tomando como referencia la relación materno-filial existente entre mi madre y mi abuela.
+Latón
 
-Surge como respuesta a una carta que mi madre escribe en la que menciona a la vez el hecho de que mi abuela le ha enseñado a amar la naturaleza y las tradiciones, y cómo no le permitió estudiar solo para mantenerla cerca de ella.
+8 x 12 x 10cm
 
-Es por eso que las setas-tetas poseen brazos y piernas con las que poder moverse pero, a su vez, están ancladas en el suelo; dispuestas unas al lado de las otras, como una familia inseparable, inamovible.
+La obra reflexiona sobre la maternidad y los lazos materno-filiales a través de figuras que, simultáneamente, simbolizan movimiento y arraigo, evocando tradiciones, enseñanzas y vínculos inquebrantables.
 
 {% include img_collage.html
     imgPath="sculpture/hogar"

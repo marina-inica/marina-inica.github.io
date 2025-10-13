@@ -1,13 +1,15 @@
 ---
 layout: post
-title: La cuna
+title: La cuna, 2024
 description: El lado oculto de la maternidad
 image: assets/images/performance/la-cuna/1.jpeg
 ---
 
-Pieza en la cual se combinan disciplinas artísticas como la escultura, la instalación y la performance.
+Telas, muñecas, objeto poético y fuego.
 
-La temática de esta obra es la maternidad con la intención de reflejar el lado oculto de esta mostrando en primer lugar una imagen bonita de una chica peinándose la cual con el paso del tiempo se vuelve más dura, culminando con el momento en el cual peina con fuego a una de las muñecas que forman parte de la instalación.
+5,30 min.
+
+La obra articula imagen, cuerpo y materia en una tensión creciente que desvela lo oculto. Un gesto ritual final activa un espacio simbólico donde fragilidad, resistencia y maternidad se entrelazan.
 
 {% include img_collage.html
     imgPath="performance/la-cuna"

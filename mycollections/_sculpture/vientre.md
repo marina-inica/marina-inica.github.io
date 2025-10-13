@@ -1,13 +1,15 @@
 ---
 layout: post
 
-title: Bendito es el fruto de tu vientre
+title: Bendito es el fruto de tu vientre, 2024
 image: assets/images/sculpture/vientre/1.jpeg
 ---
 
-Pieza escultórica e instalativa cuya finalidad pretende ser una hoda oda a mis ancestras partiendo del vínculo existente entre mi abuela, mi madre y yo.
+Reproducciones de cera
 
-Para reflejar esto, se han creado tres reproducciones de nuestros vientres, los cuales se han unido con hilo y se han presentado en una instalación junto a tres collages de cada una de nosotras, estableciendo la escultura sobre una especia de altar en el centro de la sala.
+61 x 81 x 111cm
+
+Instalación escultórica que rinde homenaje a mis ancestras mediante vientres moldeados y conectados por hilos, conformando un altar íntimo de memoria, cuerpo y linaje.
 
 {% include img_collage.html
     imgPath="sculpture/vientre"
