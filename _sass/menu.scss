@@ -1,0 +1,48 @@
+#global-menu-nav {
+    position: fixed;
+    inset: 0;
+    background-color: var(--bg);
+    opacity: 0;
+    z-index: var(--menu-z-index);
+
+    display: flex;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .23em;
+
+    transition: opacity 200ms ease-in;
+
+    ul {
+        list-style-type: none;
+        width: min(20em, 50%);
+
+        li {
+            border-top: solid 1px var(--border);
+
+            a {
+                line-height: 4em;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        li:first-child {
+            border-top: 0;
+        }
+    }
+}
+
+body:has(#global-hamburger-checkbox:checked) {
+    position: sticky;
+    top: 0;
+
+    #global-menu-nav {
+        opacity: .95;
+        pointer-events: auto;
+    }
+}

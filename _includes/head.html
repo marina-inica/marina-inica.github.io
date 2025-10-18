@@ -14,4 +14,8 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<link rel="stylesheet" href="{{ "assets/css/vars.css" | relative_url }}" />
 	<link rel="icon" href="{{ "assets/images/logo.png" | relative_url }}" />
+
+	{% if page.layout == "home" %}
+		<link rel="stylesheet" href="{{ "assets/css/home.css" | relative_url }}" />
+	{% endif %}
 </head>

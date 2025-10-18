@@ -5,7 +5,9 @@ email: marinainiguezcalero@gmail.com
 description: 'Artista interdisciplinar, enfocada en escultura y artes audiovisuales'
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author: Alejandro Garcia De La Fuente
+author: 
+  name: Alejandro Garcia De La Fuente
+  url: https://github.com/Alejandro-GDLF
 # street_address: 1234 Somewhere Road
 # city: Nashville
 # state: TN
@@ -21,6 +23,23 @@ tiles-count: 6
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
+contact:
+  - name: email
+    svg: envelope.svg
+    value: marinainiguezcalero@gmail.com
+    link: "mailto:marinainiguezcalero@gmail.com"
+    
+  - name: phone
+    svg: phone.svg
+    value: 642 821 290
+    link: "tel:642 821 290"
+  
+  - name: instagram
+    svg: instagram.svg
+    value: marina_inica
+    link: https://www.instagram.com/marina_inica
+
+
 socials:
   GitHub:
   GitLab:

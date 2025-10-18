@@ -1,0 +1,64 @@
+#footer {
+    border-top: 1px solid var(--border);
+
+    padding: 2em 6em;
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        &__item {
+            height: 2em;
+
+            display: flex;
+            gap: .5em;
+
+            &__text {
+                border-bottom: dotted 1px;
+
+                align-self: center;
+            }
+        }
+
+        margin-bottom: 2em;
+    }
+
+    .page-info {
+        color: var(--fg-light);
+        font-size: .8em;
+
+        &__item {
+            display: inline-block;
+            padding: 0 1em;
+            border-right: 1px solid var(--border);
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+
+    .icon {
+        background-color: var(--fg);
+        color: var(--bg);
+
+        aspect-ratio: 1;
+        border-radius: 100vh;
+
+        height: 100%;
+
+        display: grid;
+        justify-items: center;
+        align-items: center;
+
+        svg {
+            height: 60%;
+            width: 60%;
+        }
+    }
+}

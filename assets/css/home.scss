@@ -1,0 +1,91 @@
+---
+---
+
+#main-content {
+    #banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        h1 {
+            font-size: 3.25rem;
+        }
+
+        p {
+            text-transform: uppercase;
+            letter-spacing: .25em;
+
+            font-size: .7em;
+            font-weight: 600;
+        }
+    }
+}
+
+.main__text {
+    padding: 2em 6em;
+    min-height: 22em;
+}
+
+.tiles {
+    display: flex;
+
+    .tile {
+        height: 40vh;
+        position: relative;
+        flex: 1;
+
+        &__background {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &__foreground {
+            position: absolute;
+            inset: 0;
+
+            padding: 0 15%;
+
+            display: grid;
+            align-items: center;
+
+            z-index: 0;
+
+            &>* {
+                z-index: 2;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+
+                opacity: 0.8;
+
+                background-color: var(--accent2);
+
+                z-index: 1;
+
+                transition: opacity 200ms;
+            }
+
+            &:hover::after {
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .tile:nth-child(n + 1) .tile__foreground::after {
+        background-color: var(--accent1);
+    }
+
+    .tile:nth-child(n + 2) .tile__foreground::after {
+        background-color:var(--accent2);
+    }
+
+    .tile:nth-child(n + 3) .tile__foreground::after {
+        background-color: var(--accent3);
+    }
+}

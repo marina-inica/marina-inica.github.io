@@ -9,18 +9,18 @@
 
     <main id="main-content">
         <!-- Banner -->
-        <section id="banner">
+        <section id="banner" class="main__text">
             <h1>{{ page.landing-title }}</h1>
             
             <p>{{site.description}}</p>
         </section>
 
         <!-- Main -->
-        <section id="tiles">
+        <section id="tiles" class="tiles">
             {% include tiles.html %}
         </section>
 
-        <section id="bio">
+        <section id="bio" class="main__text">
             <header class="major">
                 <h2>Biografía</h2>
             </header>
@@ -29,6 +29,8 @@
     </main>
 
     {% include footer.html %}
+
+    {% include menu.html %}
 
 </body>
 

@@ -1,4 +1,4 @@
-#header {
+#global-header {
     display: flex;
 
     background-color: var(--bg);
@@ -85,47 +85,5 @@
                 transform: rotate(45deg);
             }
         }
-    }
-}
-
-#menu-nav {
-    position: fixed;
-    inset: 0;
-    background-color: var(--bg);
-    opacity: 0;
-    z-index: var(--menu-z-index);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: opacity 200ms ease-in;
-
-    ul {
-        list-style-type: none;
-        width: min(20em, 50%);
-
-        li {
-            border-top: solid 1px var(--border);
-
-            a {
-                line-height: 4em;
-                display: block;
-                text-align: center;
-            }
-        }
-
-        li:first-child {
-            border-top: 0;
-        }
-    }
-}
-
-#header:has(#hamburger-checkbox:checked) {
-    position: sticky;
-    top: 0;
-
-    #menu-nav {
-        opacity: .95;
     }
 }
