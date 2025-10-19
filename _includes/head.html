@@ -11,8 +11,11 @@
 		<meta name="keywords" content="{{page.keywords}}" />
 	{% endif %}
 
-	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic" rel="stylesheet">
+
 	<link rel="stylesheet" href="{{ "assets/css/vars.css" | relative_url }}" />
+	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<link rel="icon" href="{{ "assets/images/logo.png" | relative_url }}" />
 
 	{% if page.layout == "home" %}

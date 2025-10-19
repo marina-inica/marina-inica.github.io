@@ -32,7 +32,7 @@ contact:
   - name: phone
     svg: phone.svg
     value: 642 821 290
-    link: "tel:642 821 290"
+    link: "tel:+34642821290"
   
   - name: instagram
     svg: instagram.svg

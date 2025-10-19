@@ -6,7 +6,12 @@
 
   {% for tile in tiles limit:site.tiles-count %}
   <article class="tile">
-    <img class="tile__background" src="{{ tile.image }}" alt="{{ tile.title }}" />
+    <img class="tile__background" 
+      src="{{ tile.image }}" 
+      alt="{{ tile.title }}" 
+      loading="lazy"
+      decoding="async"
+      />
     
     <a class="tile__foreground" href="{{ tile.url  | relative_url }}">
       <header>

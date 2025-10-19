@@ -6,7 +6,7 @@
 @use 'footer';
 
 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+//@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 *,
 *::before,
@@ -23,6 +23,8 @@ html {
 	min-height: 100dvh;
 
 	font-family: var(--font);
+
+	scrollbar-gutter: stable;
 }
 
 body {

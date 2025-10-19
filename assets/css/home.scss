@@ -1,29 +1,28 @@
 ---
 ---
 
-#main-content {
-    #banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    h1 {
+        font-size: 3.25rem;
+    }
 
-        h1 {
-            font-size: 3.25rem;
-        }
+    p {
+        text-transform: uppercase;
+        letter-spacing: .25em;
 
-        p {
-            text-transform: uppercase;
-            letter-spacing: .25em;
-
-            font-size: .7em;
-            font-weight: 600;
-        }
+        font-size: .7em;
+        font-weight: 600;
     }
 }
 
 .main__text {
-    padding: 2em 6em;
+    padding: 2em;
+    max-width: 60em;
+    margin-inline: auto;
     min-height: 22em;
 }
 
@@ -33,9 +32,10 @@
 
 .tiles {
     display: flex;
+    flex-wrap: wrap;
 
     .tile {
-        height: 40vh;
+        height: 22em;
         position: relative;
         flex: 1;
 
@@ -55,41 +55,37 @@
             display: grid;
             align-items: center;
 
-            z-index: 0;
-
-            &>* {
-                z-index: 2;
+            p {
+                font-weight: 600;
             }
+        }
 
-            &::after {
-                content: '';
-                position: absolute;
-                inset: 0;
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
 
-                opacity: 0.8;
+            opacity: 0.8;
 
-                background-color: var(--accent2);
+            background-color: var(--accent2);
 
-                z-index: 1;
+            transition: opacity 200ms;
+        }
 
-                transition: opacity 200ms;
-            }
-
-            &:hover::after {
-                opacity: 0.3;
-            }
+        &:hover::before {
+            opacity: 0.3;
         }
     }
 
-    .tile:nth-child(n + 1) .tile__foreground::after {
+    .tile:nth-child(n + 1)::before {
         background-color: var(--accent1);
     }
 
-    .tile:nth-child(n + 2) .tile__foreground::after {
+    .tile:nth-child(n + 2)::before {
         background-color:var(--accent2);
     }
 
-    .tile:nth-child(n + 3) .tile__foreground::after {
+    .tile:nth-child(n + 3)::before {
         background-color: var(--accent3);
     }
 }

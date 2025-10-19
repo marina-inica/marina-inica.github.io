@@ -3,7 +3,6 @@
     inset: 0;
     background-color: var(--bg);
     opacity: 0;
-    z-index: var(--menu-z-index);
 
     display: flex;
     pointer-events: none;
@@ -37,12 +36,7 @@
     }
 }
 
-body:has(#global-hamburger-checkbox:checked) {
-    position: sticky;
-    top: 0;
-
-    #global-menu-nav {
+body:has(#global-hamburger-checkbox:checked) #global-menu-nav {
         opacity: .95;
         pointer-events: auto;
-    }
 }
