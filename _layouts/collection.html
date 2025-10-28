@@ -24,7 +24,7 @@
       <section class="collage">
         {% for p in site[page.tema] %}
           <article class="collage__item artwork">
-            <a>
+            <a href="{{ p.url | absolute_url }}">
               <figure>
                 <img 
                   loading="lazy"
