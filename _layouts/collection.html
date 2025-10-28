@@ -8,31 +8,32 @@
     {% include header.html %} 
     
     <main>
-    <!-- Main -->
-    <div id="main" class="alt">
+      <h1>{{page.title}}</h1>
 
-      <!-- One -->
-      <section id="one">
-        <div class="inner">
-            {% for p in site[page.tema] %}
-            {% assign mod = forloop.index0 | modulo: 2 %}
-            {% if mod == 0 %}
-              {% assign side = "left" %}
-            {% else %}
-                {% assign side = "right" %}
-            {% endif %}
-
-            {% include imgsidecap.html 
-              img-side=side
-              post=p
-              collName=page.tema
-            %}
-
-            {% unless forloop.last %}
-              <hr>
-            {% endunless %}
-            {% endfor %}
-        </div>
+      <nav class="links">
+        |
+        {% for col in site.pages %}
+          {% if col.layout == "collection" %}
+            <a href="{{ col.url | absolute_url }}"
+             class="{% if col.name == page.name %}active{% endif %}"
+            >{{col.title}}</a>
+            |
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <section class="collage">
+        {% for p in site[page.tema] %}
+          <article class="collage__item artwork">
+            <a>
+              <figure>
+                <img 
+                  loading="lazy"
+                  src="{{ p.image | relative_url }}" />
+                <figcaption>{{ p.title }}</figcaption>
+              </figure>
+            </a>
+          </article>
+        {% endfor %}
       </section>
 
     </main>
