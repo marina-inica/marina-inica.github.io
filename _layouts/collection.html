@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-
+  <head>
+    {% include head.html %}
+  </head>
+  
   <body>
 
     {% include header.html %} 
@@ -11,13 +13,11 @@
       <h1>{{page.title}}</h1>
 
       <nav class="links">
-        |
         {% for col in site.pages %}
           {% if col.layout == "collection" %}
             <a href="{{ col.url | absolute_url }}"
              class="{% if col.name == page.name %}active{% endif %}"
             >{{col.title}}</a>
-            |
           {% endif %}
         {% endfor %}
       </nav>

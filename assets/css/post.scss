@@ -1,0 +1,24 @@
+---
+---
+
+main {
+    section {
+        max-width: 60rem;
+        margin-inline: auto;
+    }
+
+    .thumbnail {
+        display: block;
+        max-height: 450px;
+        margin-inline: auto;
+    }
+
+    #content {
+        padding: 1em;
+    }
+
+    #gallery {
+        display: flex;
+        max-height: 450px;
+    }
+}

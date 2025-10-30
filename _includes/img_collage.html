@@ -1,6 +1,6 @@
 <div class="img-collage">
     {% for image in site.static_files %}
-        {% if image.path contains include.imgPath %}
+        {% if image.path contains page.gallery %}
             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
         {% endif %}
     {% endfor %}

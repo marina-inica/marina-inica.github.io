@@ -1,4 +1,4 @@
-<head>
+
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -18,6 +18,10 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<link rel="icon" href="{{ "assets/images/logo.png" | relative_url }}" />
 
+	<link rel="canonical" href="{{page.url | absolute_url}}" />
+
+	<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+
 	{% if page.layout == "home" %}
 		<link rel="stylesheet" href="{{ "assets/css/home.css" | relative_url }}" />
 	{% endif %}
@@ -25,4 +29,14 @@
 	{% if page.layout == "collection" %}
 		<link rel="stylesheet" href="{{ "assets/css/collection.css" | relative_url }}" />
 	{% endif %}
-</head>
+
+	{% if page.layout == "post" %}
+		<link rel="stylesheet" href="{{ "assets/css/post.css" | relative_url }}" />
+	{% endif %}
+
+	<meta og:title="{{ page.title }}" />
+	<meta og:description="{{ page.description }}" />
+	<meta og:type="website" />
+	<meta og:url="{{ page.url | absolute_url }}" />
+	<meta og:site_name="{{ site.title }}" />
+	<meta og:locale="es_ES" />

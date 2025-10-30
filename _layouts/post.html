@@ -1,35 +1,51 @@
+{% assign keys = page.gallery | split: '/' %}
+{% assign obj = site.data %}
+{% for k in keys %}
+	{% if obj[k] %}
+		{% assign obj = obj[k] %}
+	{% endif %}
+{% endfor %}
+
+{% assign thumbnail = obj.images[obj.thumbnail-index] %}
+
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
-{% include head.html %}
+	<head>
+		{% include head.html %}
+		{% include image_meta.html img = obj%}
+	</head>
 
 <body>
 
     {% include header.html %} 
     
-    
-<!-- Main -->
-<div id="main" class="alt">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
+	<main>
+		<section id="header">
 			<h1>{{ page.title }}</h1>
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		{{ content }}
-	</div>
-</section>
+				{% if thumbnail %}
+					<img 
+						src="{{ thumbnail.formats.webp.r900 | relative_url }}" 
+						alt="{{ thumbnail.alt }}" 
+						class="thumbnail"
+						/>
+				{% endif %}
+		</section>
 
-</div>
+		<section id="content">
+			{{ content }}
+		</section>
+
+		<section id="gallery">
+			{% for i in obj.images %}
+				{% include image.html img=i %}
+			{% endfor %}
+		</section>
+	</main>
 
     {% include footer.html %}
+
+	{% include menu.html %}
 
 </body>
 
