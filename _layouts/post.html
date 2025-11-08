@@ -22,7 +22,12 @@
     
 	<main>
 		<section id="header">
-			<h1>{{ page.title }}</h1>
+			<h1>
+				{{ page.title }}
+				{% if page.year %}
+				, {{ page.year }}
+				{% endif %}
+			</h1>
 				{% if thumbnail %}
 					<img 
 						src="{{ thumbnail.formats.webp.r900 | relative_url }}" 
@@ -31,6 +36,13 @@
 						/>
 				{% endif %}
 		</section>
+
+		{% if page.material or page.dimension %}
+		<section class="characteristics">
+			<p>{{ page.material }}</p>
+			<p>{{ page.dimension }}</p>
+		</section>
+		{% endif %}
 
 		<section id="content">
 			{{ content }}

@@ -8,7 +8,9 @@
     {% include header.html %}
 
     <main>
-        <h1 class="collection-h1">{{ page.title }}</h1>
+        <h1 class="collection-h1">
+            {{ page.title }}
+        </h1>
         <nav class="links">
             {% for col in site.pages %}
                 {% if col.layout == "sscollection" %}
@@ -36,7 +38,12 @@
                     {% assign mod = forloop.index0 | modulo: 2 %}
                     {% if mod == 0 %}
                     <div class="left text">
-                        <h1>{{ p.title }}, {{ p.year }}</h1>
+                        <h1>
+                            {{ p.title }}
+                            {% if p.year %}
+				                , {{ p.year }}
+			                {% endif %}
+                        </h1>
                         <p>{{ p.material }}</p>
                     </div>
                     {% endif %}
@@ -57,7 +64,12 @@
 
                     {% if mod == 1 %}
                     <div class="right text">
-                        <h1>{{ p.title }}</h1>
+                        <h1>
+                            {{ p.title }}
+                            {% if p.year %}
+				                , {{ p.year }}
+			                {% endif %}
+                        </h1>
                         <p>{{ p.material }}</p>
                     </div>
                     {% endif %}
