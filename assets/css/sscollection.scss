@@ -80,8 +80,14 @@ main {
                 width: fit-content;
             }
 
-            .right > *, .left > * {
+            .left > * {
                 margin-inline: auto;
+                text-align: right;
+            }
+
+            .right > * {
+                margin-inline: auto;
+                text-align: left;
             }
 
             @media (min-width: 650px) {

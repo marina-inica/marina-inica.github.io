@@ -12,8 +12,7 @@ gallery: performance/la-cuna
 
 year: 2024
 material: Telas, muñecas, objeto poético y fuego
+dimension: 5:30 min
 ---
 
-Pieza en la cual se combinan disciplinas artísticas como la escultura, la instalación y la performance.
-
-La temática de esta obra es la maternidad con la intención de reflejar el lado oculto de esta mostrando en primer lugar una imagen bonita de una chica peinándose la cual con el paso del tiempo se vuelve más dura, culminando con el momento en el cual peina con fuego a una de las muñecas que forman parte de la instalación.
+La obra articula imagen, cuerpo y materia en una tensión creciente que desvela lo oculto. Un gesto ritual final activa un espacio simbólico donde fragilidad, resistencia y maternidad se entrelazan.
