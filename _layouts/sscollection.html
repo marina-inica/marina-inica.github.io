@@ -38,12 +38,7 @@
                     {% assign mod = forloop.index0 | modulo: 2 %}
                     {% if mod == 0 %}
                     <div class="left text">
-                        <h1>
-                            {{ p.title }}
-                            {% if p.year %}
-				                , {{ p.year }}
-			                {% endif %}
-                        </h1>
+                        <h1>{{ p.title }}{% if p.year %}, {{ p.year }}{% endif %}</h1>
                         <p>{{ p.material }}</p>
                     </div>
                     {% endif %}

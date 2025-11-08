@@ -16,7 +16,7 @@ images:
         r600: /assets/images/instalation/abuela/1/jpeg/600.jpeg
         r900: /assets/images/instalation/abuela/1/jpeg/900.jpeg
   
-  - name: El fuego de la vida
+  - name: Instalación de la habitación de la abuela
     alt: >- 
       Instalación La habitación de la abuela (Marina Íñiguez): Se observa a una 
       persona colocando una nota en una cortina de bordados. A su espalda, hay 
@@ -32,7 +32,7 @@ images:
         r600: /assets/images/instalation/abuela/2/jpeg/600.jpeg
         r900: /assets/images/instalation/abuela/2/jpeg/900.jpeg
   
-  - name: El fuego de la vida
+  - name: Instalación de la habitación de la abuela
     alt: >- 
       Instalación en la UPV de Valencia: Se observa una pequeña instancia
       en la esquina de la imagen. La estancia tiene una mecedora, un brasero
@@ -48,7 +48,7 @@ images:
         r600: /assets/images/instalation/abuela/3/jpeg/600.jpeg
         r900: /assets/images/instalation/abuela/3/jpeg/900.jpeg
   
-  - name: El fuego de la vida
+  - name: Instalación de la habitación de la abuela
     alt: >- 
       Instalación en la UPV de Valencia: Se observa una pequeña instancia
       en la esquina de la imagen. La estancia tiene una mecedora, un brasero
@@ -64,7 +64,7 @@ images:
         r600: /assets/images/instalation/abuela/4/jpeg/600.jpeg
         r900: /assets/images/instalation/abuela/4/jpeg/900.jpeg
   
-  - name: El fuego de la vida
+  - name: Instalación de la habitación de la abuela
     alt: >- 
       Instalación en la UPV de Valencia: La habitación de la abuela. Se puede
       observar en la imagen una nota con una confesion hacia una madre colgada
@@ -80,7 +80,7 @@ images:
         r600: /assets/images/instalation/abuela/5/jpeg/600.jpeg
         r900: /assets/images/instalation/abuela/5/jpeg/900.jpeg
 
-  - name: El fuego de la vida
+  - name: Instalación de la habitación de la abuela
     alt: >- 
       Instalación en la UPV de Valencia: La habitación de la abuela. Una cortina
       de bordados con notas colgadas de imperdibles.
@@ -95,7 +95,7 @@ images:
         r600: /assets/images/instalation/abuela/6/jpeg/600.jpeg
         r900: /assets/images/instalation/abuela/6/jpeg/900.jpeg
   
-  - name: El fuego de la vida
+  - name: Instalación de la habitación de la abuela
     alt: >- 
       Instalación en la UPV de Valencia: La habitación de la abuela.
       Una mecedora con una caja de costura en frente de un brasero

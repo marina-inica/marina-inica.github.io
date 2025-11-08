@@ -13,7 +13,7 @@ gallery: sculpture/vientre
 
 year: 2024
 material: Reproducciones de cera
-dimensions: 61 x 81 x 111 cm
+dimension: 61 x 81 x 111 cm
 ---
 
 Instalación escultórica que rinde homenaje a mis ancestras mediante vientres

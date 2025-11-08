@@ -13,7 +13,7 @@
 
 	<head>
 		{% include head.html %}
-		{% include image_meta.html img = obj%}
+		{% include image_meta.html img = obj %}
 	</head>
 
 <body>
@@ -22,12 +22,7 @@
     
 	<main>
 		<section id="header">
-			<h1>
-				{{ page.title }}
-				{% if page.year %}
-				, {{ page.year }}
-				{% endif %}
-			</h1>
+			<h1>{{ page.title }}{% if page.year %}, {{ page.year }}{% endif %}</h1>
 				{% if thumbnail %}
 					<img 
 						src="{{ thumbnail.formats.webp.r900 | relative_url }}" 
