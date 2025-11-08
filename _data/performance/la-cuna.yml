@@ -39,4 +39,18 @@ images:
         low: /assets/images/performance/la-cuna/3/jpeg/200.jpeg
         r600: /assets/images/performance/la-cuna/3/jpeg/600.jpeg
         r900: /assets/images/performance/la-cuna/3/jpeg/900.jpeg
+  
+  - name: La cuna 4
+    alt: >- 
+      Escena de performance: Íñiguez -sentada rodeada de muñecas y con la cortina como capa-
+      se peina con el cepillo de cerillas que posteriormente usará en el resto de la obra.
+    formats:
+      webp:
+        low: /assets/images/performance/la-cuna/4/webp/200.webp
+        r600: /assets/images/performance/la-cuna/4/webp/600.webp
+        r900: /assets/images/performance/la-cuna/4/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/la-cuna/4/jpeg/200.jpeg
+        r600: /assets/images/performance/la-cuna/4/jpeg/600.jpeg
+        r900: /assets/images/performance/la-cuna/4/jpeg/900.jpeg
         
