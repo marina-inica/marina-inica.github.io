@@ -8,10 +8,10 @@ images:
       
     formats:
       webp:
-        low: /assets/images/sculpture/fuego-vida/1/webp/200.webp
-        r600: /assets/images/sculpture/fuego-vida/1/webp/600.webp
-        r900: /assets/images/sculpture/fuego-vida/1/webp/900.webp
+        low: /assets/images/performance/fuego-vida-2/1/webp/200.webp
+        r600: /assets/images/performance/fuego-vida-2/1/webp/600.webp
+        r900: /assets/images/performance/fuego-vida-2/1/webp/900.webp
       jpeg:
-        low: /assets/images/sculpture/fuego-vida/1/jpeg/200.jpeg
-        r600: /assets/images/sculpture/fuego-vida/1/jpeg/600.jpeg
-        r900: /assets/images/sculpture/fuego-vida/1/jpeg/900.jpeg
+        low: /assets/images/performance/fuego-vida-2/1/jpeg/200.jpeg
+        r600: /assets/images/performance/fuego-vida-2/1/jpeg/600.jpeg
+        r900: /assets/images/performance/fuego-vida-2/1/jpeg/900.jpeg
