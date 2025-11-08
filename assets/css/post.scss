@@ -37,4 +37,8 @@ main {
             grid-template-columns: repeat(3, 1fr);
         }
     }
+
+    .other_link {
+        border-bottom: dotted 1px;
+    }
 }

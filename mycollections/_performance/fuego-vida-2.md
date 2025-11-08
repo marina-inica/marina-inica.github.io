@@ -19,3 +19,5 @@ dimension: 30 min
 
 Performance en la que el fuego transforma gradualmente los materiales, 
 activando un colapso ritual cargado de tensión, calor y fragilidad.
+
+Escultura: {% include page_ref.html coll='sculpture' item='fuego-vida-1' class='other_link' %}
