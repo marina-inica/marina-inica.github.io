@@ -2,7 +2,7 @@ thumbnail-index: 0
 images:
   - name: El fuego de la vida
     alt: >- 
-      Escultura: Íñiguez está incorporada ante una vagina de latón en forma de bola
+      Performance: Íñiguez está incorporada ante una vagina de latón en forma de bola
       donde se puede vislumbrar una llama en el interior de la cavidad. La escena
       es oscura, con fondo negro así como los ropajes de la artista, que posa
       
@@ -15,3 +15,35 @@ images:
         low: /assets/images/performance/fuego-vida-2/1/jpeg/200.jpeg
         r600: /assets/images/performance/fuego-vida-2/1/jpeg/600.jpeg
         r900: /assets/images/performance/fuego-vida-2/1/jpeg/900.jpeg
+  
+  - name: El fuego de la vida
+    alt: >- 
+      Performance: Íñiguez está incorporada ante una vagina de latón en forma de bola
+      donde se puede vislumbrar una llama en el interior de la cavidad. La escena
+      es oscura, con fondo negro así como los ropajes de la artista, que posa
+      
+    formats:
+      webp:
+        low: /assets/images/performance/fuego-vida-2/2/webp/200.webp
+        r600: /assets/images/performance/fuego-vida-2/2/webp/600.webp
+        r900: /assets/images/performance/fuego-vida-2/2/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/fuego-vida-2/2/jpeg/200.jpeg
+        r600: /assets/images/performance/fuego-vida-2/2/jpeg/600.jpeg
+        r900: /assets/images/performance/fuego-vida-2/2/jpeg/900.jpeg
+  
+  - name: El fuego de la vida
+    alt: >- 
+      Performance: Íñiguez está incorporada ante una vagina de latón en forma de bola
+      donde se puede vislumbrar una llama en el interior de la cavidad. La escena
+      es oscura, con fondo negro así como los ropajes de la artista, que posa
+      
+    formats:
+      webp:
+        low: /assets/images/performance/fuego-vida-2/3/webp/200.webp
+        r600: /assets/images/performance/fuego-vida-2/3/webp/600.webp
+        r900: /assets/images/performance/fuego-vida-2/3/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/fuego-vida-2/3/jpeg/200.jpeg
+        r600: /assets/images/performance/fuego-vida-2/3/jpeg/600.jpeg
+        r900: /assets/images/performance/fuego-vida-2/3/jpeg/900.jpeg
