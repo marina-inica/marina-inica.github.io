@@ -1,0 +1,63 @@
+thumbnail-index: 2
+images:
+  - name: Sin título
+    alt: >- 
+      Escena de performance: Se dispone un barreño con agua y el jabón usado
+      tras la acutación
+    formats:
+      webp:
+        low: /assets/images/performance/sin-titulo/1/webp/200.webp
+        r600: /assets/images/performance/sin-titulo/1/webp/600.webp
+        r900: /assets/images/performance/sin-titulo/1/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/sin-titulo/1/jpeg/200.jpeg
+        r600: /assets/images/performance/sin-titulo/1/jpeg/600.jpeg
+        r900: /assets/images/performance/sin-titulo/1/jpeg/900.jpeg
+  
+  - name: Sin título
+    alt: >- 
+      Escena de performance Sin Titulo de Íñiguez: Íñiguez junto con
+      La Tela Marinera realizando la performance rodeados de público.
+      Las artistas están arrodilladas frente a un barreño imitando el proceso
+      de lavado de ropa en los tradicionales lavaderos.
+    formats:
+      webp:
+        low: /assets/images/performance/sin-titulo/2/webp/200.webp
+        r600: /assets/images/performance/sin-titulo/2/webp/600.webp
+        r900: /assets/images/performance/sin-titulo/2/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/sin-titulo/2/jpeg/200.jpeg
+        r600: /assets/images/performance/sin-titulo/2/jpeg/600.jpeg
+        r900: /assets/images/performance/sin-titulo/2/jpeg/900.jpeg
+  
+  - name: Sin título
+    alt: >- 
+      Escena de performance: La Tela Marinera. Las artistas están arrollidadas
+      frente a un barreño con las manos enjabonadas soplando a el hueco entre
+      sus manos como si fueran a hacer pompas. Las artistas visten ropajes
+      tradicionales manchegos.
+    formats:
+      webp:
+        low: /assets/images/performance/sin-titulo/3/webp/200.webp
+        r600: /assets/images/performance/sin-titulo/3/webp/600.webp
+        r900: /assets/images/performance/sin-titulo/3/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/sin-titulo/3/jpeg/200.jpeg
+        r600: /assets/images/performance/sin-titulo/3/jpeg/600.jpeg
+        r900: /assets/images/performance/sin-titulo/3/jpeg/900.jpeg
+  
+  - name: Sin título
+    alt: >- 
+      Escena de performance: La Tela Marinera. Las artistas están arrollidadas
+      frente a un barreño con las manos enjabonadas soplando a el hueco entre
+      sus manos como si fueran a hacer pompas. Las artistas visten ropajes
+      tradicionales manchegos.
+    formats:
+      webp:
+        low: /assets/images/performance/sin-titulo/4/webp/200.webp
+        r600: /assets/images/performance/sin-titulo/4/webp/600.webp
+        r900: /assets/images/performance/sin-titulo/4/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/sin-titulo/4/jpeg/200.jpeg
+        r600: /assets/images/performance/sin-titulo/4/jpeg/600.jpeg
+        r900: /assets/images/performance/sin-titulo/4/jpeg/900.jpeg
