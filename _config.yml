@@ -78,3 +78,7 @@ collections:
   performance:
     output: true
     permalink: /:collection/:name
+  
+  instalation:
+    output: true
+    permalink: /:collection/:name
