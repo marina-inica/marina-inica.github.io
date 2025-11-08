@@ -1,0 +1,100 @@
+---
+---
+
+.collection-h1 {
+    border: none;
+    width: fit-content;
+    margin-inline: auto;
+    max-width: 60rem;
+}
+
+main {
+    margin-inline: auto;
+
+    .links {
+        font-size: 1.2em;
+
+        padding: .5em;
+
+        display: flex;
+        gap: 1rem;
+        max-width: 60rem;
+        margin-inline: auto;
+        
+        .active {
+            font-weight: 600;
+        }
+    }
+
+    .collage {
+        border-top: 1px solid var(--fg-light);
+        padding: 2em;
+        max-width: 60rem;
+        margin-inline: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__item {
+            border-bottom: 1px solid var(--border);
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            figure {
+                margin-inline: auto;
+            }
+
+            img {
+                display: block;
+                aspect-ratio: 4 / 3;
+                
+                object-position: center;
+                object-fit: cover;
+                margin-inline: auto;
+            }
+
+            figcaption {
+                margin-inline: auto;
+                width: fit-content;
+            }
+        }
+
+        .inner {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            @media (min-width: 650px) {
+                grid-template-columns: repeat(2, 1fr);    
+            }
+
+            & > * {
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+            .text > * {
+                border: none;
+                width: fit-content;
+            }
+
+            .right > *, .left > * {
+                margin-inline: auto;
+            }
+
+            @media (min-width: 650px) {
+                .right > * {
+                    margin-inline: 0;
+                    margin-right: auto;
+                }
+
+                .left > * {
+                    margin-inline: 0;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}

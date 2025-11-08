@@ -9,6 +9,9 @@ description: >-
     la instalación y la performance.
 
 gallery: performance/la-cuna
+
+year: 2024
+material: Telas, muñecas, objeto poético y fuego
 ---
 
 Pieza en la cual se combinan disciplinas artísticas como la escultura, la instalación y la performance.

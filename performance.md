@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: sscollection
 permalink: /performance
 
 
