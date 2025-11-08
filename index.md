@@ -8,11 +8,11 @@ author: null
 show_tile: false
 
 description: >-
-    Artista visual que reflexiona sobre la tradición y las costumbres a través de
-    la escultura, instalación, performance y artes audiovisuales. Íñiguez propone 
-    una investigación poética sobre el territorio, la identidad y las formas de
-    habitar el espacio contemporáneo utilizando materiales naturales y procesos
-    sostenibles
+    Íñiguez es una artista visual que reflexiona sobre la tradición y las 
+    costumbres a través de la escultura, instalación, performance y artes
+    audiovisuales. Íñiguez propone una investigación poética sobre el territorio,
+    la identidad y las formas de habitar el espacio contemporáneo utilizando
+    materiales naturales y procesos sostenibles
 
 keywords: artista visual escultura tradición costumbres instalación performance artes
 ---
