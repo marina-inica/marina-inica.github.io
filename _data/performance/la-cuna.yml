@@ -7,11 +7,11 @@ images:
     formats:
       webp:
         low: /assets/images/performance/la-cuna/1/webp/200.webp
-        r450: /assets/images/performance/la-cuna/1/webp/450.webp
+        r600: /assets/images/performance/la-cuna/1/webp/600.webp
         r900: /assets/images/performance/la-cuna/1/webp/900.webp
       jpeg:
         low: /assets/images/performance/la-cuna/1/jpeg/200.jpeg
-        r450: /assets/images/performance/la-cuna/1/jpeg/450.jpeg
+        r600: /assets/images/performance/la-cuna/1/jpeg/600.jpeg
         r900: /assets/images/performance/la-cuna/1/jpeg/900.jpeg
   - name: La cuna 2
     alt: >- 
@@ -20,11 +20,11 @@ images:
     formats:
       webp:
         low: /assets/images/performance/la-cuna/2/webp/200.webp
-        r450: /assets/images/performance/la-cuna/2/webp/450.webp
+        r600: /assets/images/performance/la-cuna/2/webp/600.webp
         r900: /assets/images/performance/la-cuna/2/webp/900.webp
       jpeg:
         low: /assets/images/performance/la-cuna/2/jpeg/200.jpeg
-        r450: /assets/images/performance/la-cuna/2/jpeg/450.jpeg
+        r600: /assets/images/performance/la-cuna/2/jpeg/600.jpeg
         r900: /assets/images/performance/la-cuna/2/jpeg/900.jpeg
   - name: La cuna 3
     alt: >- 
@@ -33,10 +33,10 @@ images:
     formats:
       webp:
         low: /assets/images/performance/la-cuna/3/webp/200.webp
-        r450: /assets/images/performance/la-cuna/3/webp/450.webp
+        r600: /assets/images/performance/la-cuna/3/webp/600.webp
         r900: /assets/images/performance/la-cuna/3/webp/900.webp
       jpeg:
         low: /assets/images/performance/la-cuna/3/jpeg/200.jpeg
-        r450: /assets/images/performance/la-cuna/3/jpeg/450.jpeg
+        r600: /assets/images/performance/la-cuna/3/jpeg/600.jpeg
         r900: /assets/images/performance/la-cuna/3/jpeg/900.jpeg
         

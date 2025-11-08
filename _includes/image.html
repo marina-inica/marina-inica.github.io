@@ -25,17 +25,17 @@
     >
         <source 
             type="image/webp"
-            srcset="{{ f_webp.r450 | absolute_url }} 450w, {{ f_webp.r900 | absolute_url }} 900w"
+            srcset="{{ f_webp.r600 | absolute_url }} 600w, {{ f_webp.r900 | absolute_url }} 900w"
             sizes="(max-width: 640px)"
             >
         <source
             type="image/jpeg"
-            srcset="{{ f_jpeg.r450 | absolute_url }} 450w, {{ f_jpeg.r900 | absolute_url }} 900w"
+            srcset="{{ f_jpeg.r600 | absolute_url }} 600w, {{ f_jpeg.r900 | absolute_url }} 900w"
             sizes="(max-width: 640px)"
             >
         
         <img
-            src="{{ f_jpeg.r450 | absolute_url }}"
+            src="{{ f_jpeg.r600 | absolute_url }}"
             alt="{{ img.alt }}"
             loading="lazy"
             decoding="async"

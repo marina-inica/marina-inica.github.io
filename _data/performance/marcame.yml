@@ -1,0 +1,30 @@
+thumbnail-index: 0
+images:
+  - name: Marcame 1
+    alt: >- 
+      Escena de performance: Íñiguez con su grupo de performance en la plaza
+      de la catedral de Valencia. Muestran sus carteles y marcas tras la actuación.
+    formats:
+      webp:
+        low: /assets/images/performance/marcame/1/webp/200.webp
+        r600: /assets/images/performance/marcame/1/webp/600.webp
+        r900: /assets/images/performance/marcame/1/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/marcame/1/jpeg/200.jpeg
+        r600: /assets/images/performance/marcame/1/jpeg/600.jpeg
+        r900: /assets/images/performance/marcame/1/jpeg/900.jpeg
+  - name: Marcame 2
+    alt: >- 
+      Escena de performance: Íñiguez cubierta de cruces pintadas por todo su cuerpo
+      sosteniendo su cartel que dice: "¿Has concido a alguna víctima mortal de
+      la violencia machista? Si tu respuesta es Sí deja una marca en mi piel"
+    formats:
+      webp:
+        low: /assets/images/performance/marcame/2/webp/200.webp
+        r600: /assets/images/performance/marcame/2/webp/600.webp
+        r900: /assets/images/performance/marcame/2/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/marcame/2/jpeg/200.jpeg
+        r600: /assets/images/performance/marcame/2/jpeg/600.jpeg
+        r900: /assets/images/performance/marcame/2/jpeg/900.jpeg
+        

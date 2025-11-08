@@ -23,12 +23,21 @@
       </nav>
       <section class="collage">
         {% for p in site[page.tema] %}
+          {% assign keys = p.gallery | split: '/' %}
+          {% assign obj = site.data %}
+          {% for k in keys %}
+            {% if obj[k] %}
+              {% assign obj = obj[k] %}
+            {% endif %}
+          {% endfor %}
+          
+          {% assign thumbnail = obj.images[obj.thumbnail-index] %}
           <article class="collage__item artwork">
             <a href="{{ p.url | absolute_url }}">
               <figure>
                 <img 
                   loading="lazy"
-                  src="{{ p.image | relative_url }}" />
+                  src="{{ thumbnail.formats.jpeg.r600 | relative_url }}" />
                 <figcaption>{{ p.title }}</figcaption>
               </figure>
             </a>
