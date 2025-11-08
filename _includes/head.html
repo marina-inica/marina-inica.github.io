@@ -34,9 +34,9 @@
 		<link rel="stylesheet" href="{{ "assets/css/post.css" | relative_url }}" />
 	{% endif %}
 
-	<meta og:title="{{ page.title }}" />
-	<meta og:description="{{ page.description }}" />
-	<meta og:type="website" />
-	<meta og:url="{{ page.url | absolute_url }}" />
-	<meta og:site_name="{{ site.title }}" />
-	<meta og:locale="es_ES" />
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{{ page.url | absolute_url }}" />
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="og:locale" content="es_ES" />
