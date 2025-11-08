@@ -1,0 +1,30 @@
+thumbnail-index: 0
+images:
+  - name: El fuego de la vida
+    alt: >- 
+      Escultura: Esfera de latón representando la anatomía de una vulva.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/fuego-vida-1/1/webp/200.webp
+        r600: /assets/images/sculpture/fuego-vida-1/1/webp/600.webp
+        r900: /assets/images/sculpture/fuego-vida-1/1/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/fuego-vida-1/1/jpeg/200.jpeg
+        r600: /assets/images/sculpture/fuego-vida-1/1/jpeg/600.jpeg
+        r900: /assets/images/sculpture/fuego-vida-1/1/jpeg/900.jpeg
+  
+  - name: El fuego de la vida
+    alt: >- 
+      Escultura: Esfera de latón representando la anatomía de una vulva.
+      Presentada en un pedestal con un video detrás.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/fuego-vida-1/2/webp/200.webp
+        r600: /assets/images/sculpture/fuego-vida-1/2/webp/600.webp
+        r900: /assets/images/sculpture/fuego-vida-1/2/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/fuego-vida-1/2/jpeg/200.jpeg
+        r600: /assets/images/sculpture/fuego-vida-1/2/jpeg/600.jpeg
+        r900: /assets/images/sculpture/fuego-vida-1/2/jpeg/900.jpeg
