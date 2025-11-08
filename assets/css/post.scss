@@ -5,6 +5,12 @@ main {
     section {
         max-width: 60rem;
         margin-inline: auto;
+
+        @media (max-width: 60em) {
+            h1 {
+                padding-inline: 1em;
+            }
+        }
     }
 
     .thumbnail {
@@ -18,7 +24,15 @@ main {
     }
 
     #gallery {
-        display: flex;
-        max-height: 450px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        @media (min-width: 600px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (min-width: 900px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 }
