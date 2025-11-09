@@ -19,6 +19,12 @@ main {
         margin-inline: auto;
     }
 
+    @media (max-width: 60em) {
+        #characteristics {
+            padding-inline: 1em;
+        }
+    }
+
     #content {
         padding: 1em;
     }
