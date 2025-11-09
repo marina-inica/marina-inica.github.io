@@ -34,20 +34,6 @@ images:
       publico con cuerdas de esparto, integrándolos en la performance.
     formats:
       webp:
-        low: /assets/images/performance/raices/3/webp/200.webp
-        r600: /assets/images/performance/raices/3/webp/600.webp
-        r900: /assets/images/performance/raices/3/webp/900.webp
-      jpeg:
-        low: /assets/images/performance/raices/3/jpeg/200.jpeg
-        r600: /assets/images/performance/raices/3/jpeg/600.jpeg
-        r900: /assets/images/performance/raices/3/jpeg/900.jpeg
-  
-  - name: Raices
-    alt: >- 
-      Escena de performance: Raices. Las artistas de la Tela Marinera atan al
-      publico con cuerdas de esparto, integrándolos en la performance.
-    formats:
-      webp:
         low: /assets/images/performance/raices/4/webp/200.webp
         r600: /assets/images/performance/raices/4/webp/600.webp
         r900: /assets/images/performance/raices/4/webp/900.webp
@@ -55,6 +41,20 @@ images:
         low: /assets/images/performance/raices/4/jpeg/200.jpeg
         r600: /assets/images/performance/raices/4/jpeg/600.jpeg
         r900: /assets/images/performance/raices/4/jpeg/900.jpeg
+  
+  - name: Raices
+    alt: >- 
+      Escena de performance: Raices. Las artistas de la Tela Marinera atan al
+      publico con cuerdas de esparto, integrándolos en la performance.
+    formats:
+      webp:
+        low: /assets/images/performance/raices/3/webp/200.webp
+        r600: /assets/images/performance/raices/3/webp/600.webp
+        r900: /assets/images/performance/raices/3/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/raices/3/jpeg/200.jpeg
+        r600: /assets/images/performance/raices/3/jpeg/600.jpeg
+        r900: /assets/images/performance/raices/3/jpeg/900.jpeg
   
   - name: Raices
     alt: >- 
