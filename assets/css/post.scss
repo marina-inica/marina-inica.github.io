@@ -19,9 +19,10 @@ main {
 
     .thumbnail {
         display: block;
-        height: 450px;
         margin-inline: auto;
         width: fit-content;
+        max-width: 450px;
+        padding-inline: 1rem;
     }
 
     @media (max-width: 60em) {
