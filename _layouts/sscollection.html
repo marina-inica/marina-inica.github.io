@@ -50,11 +50,7 @@
                             class="left image"
                         {% endif %}
                     >
-                        <figure>
-                            <img 
-                                loading="lazy"
-                                src="{{ thumbnail.formats.jpeg.r600 | relative_url }}" />
-                        </figure>
+                        {% include image.html img=thumbnail %}
                     </div>
 
                     {% if mod == 1 %}
