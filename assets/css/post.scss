@@ -1,0 +1,60 @@
+---
+---
+
+main {
+    section {
+        max-width: 60rem;
+        margin-inline: auto;
+
+        @media (max-width: 60em) {
+            h1 {
+                padding-inline: 1em;
+            }
+        }
+    }
+
+    #header {
+        margin-bottom: 1rem;
+    }
+
+    .thumbnail {
+        display: block;
+        margin-inline: auto;
+        width: fit-content;
+        max-width: 450px;
+        padding-inline: 1rem;
+    }
+
+    @media (max-width: 60em) {
+        #characteristics {
+            padding-inline: 1em;
+        }
+    }
+
+    #content {
+        padding: 1em;
+    }
+
+    #gallery {
+        margin-bottom: 1rem;
+        column-count: 1;
+        column-gap: .5rem;
+
+        @media (min-width: 600px) {
+            column-count: 2;
+        }
+
+        @media (min-width: 900px) {
+            column-count: 3;
+        }
+
+        & > * {
+            break-inside: avoid;
+            margin-bottom: .5rem;
+        }
+    }
+
+    .other_link {
+        border-bottom: dotted 1px;
+    }
+}

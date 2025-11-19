@@ -1,0 +1,92 @@
+---
+---
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    p {
+        text-transform: uppercase;
+        letter-spacing: .25em;
+
+        font-size: .7em;
+        font-weight: 600;
+    }
+}
+
+.main__text {
+    padding: 2em;
+    max-width: 60em;
+    margin-inline: auto;
+    min-height: 22em;
+}
+
+#bio h2 {
+    width: fit-content;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+
+    .tile {
+        height: 22em;
+        position: relative;
+        flex: 1;
+        min-width: 350px;
+
+        &__background {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &__foreground {
+            position: absolute;
+            inset: 0;
+
+            padding: 0 15%;
+
+            display: grid;
+            align-items: center;
+
+            p {
+                font-weight: 600;
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+
+            opacity: 0.8;
+
+            background-color: var(--accent2);
+
+            transition: opacity 200ms;
+        }
+
+        &:hover::before {
+            opacity: 0.3;
+        }
+    }
+
+    .tile:nth-child(n + 1)::before {
+        background-color: var(--accent1);
+    }
+
+    .tile:nth-child(n + 2)::before {
+        background-color:var(--accent2);
+    }
+
+    .tile:nth-child(n + 3)::before {
+        background-color: var(--accent3);
+    }
+}

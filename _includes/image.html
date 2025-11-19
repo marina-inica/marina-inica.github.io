@@ -1,0 +1,48 @@
+{% assign img = include.img %}
+
+{% assign f_jpeg = img.formats.jpeg %}
+{% assign f_webp = img.formats.webp %}
+
+<figure
+    itemscope
+    itemtype="https://schema.org/ImageObject"
+    {% if include.class %}
+        class="{{include.class}}"
+    {% endif %}
+    >
+
+    <picture
+        style="
+            background-image: url({{ f_jpeg.low }});
+            max-width: 100%;
+            max-height: 100%;
+        "
+    >
+        <source 
+            type="image/webp"
+            srcset="{{ f_webp.r600 | absolute_url }} 600w, {{ f_webp.r900 | absolute_url }} 900w"
+            sizes="(max-width: 640px)"
+            >
+        <source
+            type="image/jpeg"
+            srcset="{{ f_jpeg.r600 | absolute_url }} 600w, {{ f_jpeg.r900 | absolute_url }} 900w"
+            sizes="(max-width: 640px)"
+            >
+        
+        <img
+            src="{{ f_jpeg.r600 | absolute_url }}"
+            alt="{{ img.alt }}"
+            loading="lazy"
+            decoding="async"
+            style="
+                display: block;
+                max-height: 100%;
+                max-width: 100%;
+            "
+        >
+    </picture>
+    <meta itemprop="contentUrl" content="{{ f_jpeg.r900 | absolute_url }}">
+    <meta itemprop="thumbnailUrl" content="{{ f_jpeg.low | absolute_url }}">
+    <meta itemprop="name" content="{{ img.name }}">
+    <meta itemprop="description" content="{{ img.alt }}">
+</figure>

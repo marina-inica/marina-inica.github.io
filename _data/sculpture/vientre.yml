@@ -1,0 +1,113 @@
+thumbnail-index: 0
+images:
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: Tres abdómenes (de izquierda a derecha: de Íñiguez, de su madre, 
+      de su abuela) blancos hechos de cera, unidos por un hilo blanco. Dispuestos
+      en un atril con un mantel blanco con grabados.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/1/webp/200.webp
+        r600: /assets/images/sculpture/vientre/1/webp/600.webp
+        r900: /assets/images/sculpture/vientre/1/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/1/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/1/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/1/jpeg/900.jpeg
+  
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: Tres abdómenes (de derecha a izquierda: de Íñiguez, de su madre, 
+      de su abuela) blancos hechos de cera, unidos por un hilo blanco. Dispuestos
+      en un atril con un mantel blanco con grabados.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/2/webp/200.webp
+        r600: /assets/images/sculpture/vientre/2/webp/600.webp
+        r900: /assets/images/sculpture/vientre/2/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/2/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/2/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/2/jpeg/900.jpeg
+
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: Tres abdómenes (de izquierda a derecha: de Íñiguez, de su madre, 
+      de su abuela) blancos hechos de cera, unidos por un hilo blanco. Tras ellos
+      se puede ver un escrito. Dispuestos en un atril con un mantel blanco con grabados.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/3/webp/200.webp
+        r600: /assets/images/sculpture/vientre/3/webp/600.webp
+        r900: /assets/images/sculpture/vientre/3/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/3/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/3/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/3/jpeg/900.jpeg
+
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: El abdomen de la abuela de Íñiguez hecho de cera blanca con
+      una escritura en su parte posterior. Unido con otro abdomen
+      -el de su madre- con un hilo blanco.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/4/webp/200.webp
+        r600: /assets/images/sculpture/vientre/4/webp/600.webp
+        r900: /assets/images/sculpture/vientre/4/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/4/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/4/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/4/jpeg/900.jpeg
+
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: La parte de atrás del abdomen de la abuela de Íñiguez
+      hecho de cera blanca con una escritura en su parte posterior. Unido
+      con otro abdomen -el de su madre- con un hilo blanco.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/5/webp/200.webp
+        r600: /assets/images/sculpture/vientre/5/webp/600.webp
+        r900: /assets/images/sculpture/vientre/5/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/5/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/5/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/5/jpeg/900.jpeg
+
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: La parte de atrás del abdomen de la abuela de Íñiguez
+      hecho de cera blanca con una escritura en su parte posterior. Unido
+      con otro abdomen -el de su madre- con un hilo blanco.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/6/webp/200.webp
+        r600: /assets/images/sculpture/vientre/6/webp/600.webp
+        r900: /assets/images/sculpture/vientre/6/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/6/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/6/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/6/jpeg/900.jpeg
+
+  - name: Bendito es el fruto de tu vientre
+    alt: >- 
+      Escultura: La parte de atrás del abdomen de la abuela de Íñiguez
+      hecho de cera blanca con una escritura en su parte posterior. Unido
+      con otro abdomen -el de su madre- con un hilo blanco.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/vientre/7/webp/200.webp
+        r600: /assets/images/sculpture/vientre/7/webp/600.webp
+        r900: /assets/images/sculpture/vientre/7/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/vientre/7/jpeg/200.jpeg
+        r600: /assets/images/sculpture/vientre/7/jpeg/600.jpeg
+        r900: /assets/images/sculpture/vientre/7/jpeg/900.jpeg

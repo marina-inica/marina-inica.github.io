@@ -1,0 +1,31 @@
+thumbnail-index: 0
+images:
+  - name: El Hogar
+    alt: >- 
+      Instalación: se dispone la escultura Hogar 1 encima de una tela negra
+      cubierta de paja con unos claros donde se disponen las setatetas.
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/hogar/1/webp/200.webp
+        r600: /assets/images/instalation/hogar/1/webp/600.webp
+        r900: /assets/images/instalation/hogar/1/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/hogar/1/jpeg/200.jpeg
+        r600: /assets/images/instalation/hogar/1/jpeg/600.jpeg
+        r900: /assets/images/instalation/hogar/1/jpeg/900.jpeg
+  
+  - name: El Hogar
+    alt: >- 
+      Instalación: se dispone la escultura Hogar 1 encima de una tela negra
+      cubierta de paja con unos claros donde se disponen las setatetas.
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/hogar/2/webp/200.webp
+        r600: /assets/images/instalation/hogar/2/webp/600.webp
+        r900: /assets/images/instalation/hogar/2/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/hogar/2/jpeg/200.jpeg
+        r600: /assets/images/instalation/hogar/2/jpeg/600.jpeg
+        r900: /assets/images/instalation/hogar/2/jpeg/900.jpeg

@@ -1,0 +1,38 @@
+{% assign thumbnail_img = include.img.images[include.img.thumbnail-index] %}
+
+<!-- Open Graph -->
+<meta property="og:image" content="{{ thumbnail_img.formats.jpeg.r900 | absolute_url }}" />
+<meta property="og:image:secure_url" content="{{ thumbnail_img.formats.jpeg.r900 | absolute_url }}" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ thumbnail_img.alt }}" />
+
+<!-- X (Twitter) -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />
+<meta name="twitter:description" content="{{ page.description }}" />
+<meta name="twitter:image" content="{{ thumbnail_img.formats.jpeg.r900 | absolute_url }}" />
+<meta name="twitter:image:alt" content="{{ thumbnail_img.alt }}" />
+
+<meta name="preload" content="{{ thumbnail_img.formats.jpeg.r900 | absolute_url }}">
+
+<!-- Datos estructurados -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebPage",
+"name": "{{ page.title }} | {{ site.title }}",
+"url": "{{ page.url | absolute_url }} ",
+"description": "{{ page.description }}",
+"primaryImageOfPage": {
+    "@type": "ImageObject",
+    "contentUrl": "{{ thumbnail_img.jpeg.r900 | absolute_url }}",
+    "url": "{{ thumbnail_img.jpeg.r900 | absolute_url }}",
+    "caption": "{{ thumbnail_img.alt }}",
+    "thumbnail": "{{ thumbnail_img.jpeg.low | absolute_url }}"
+},
+"inLanguage": "es"
+}
+</script>
+

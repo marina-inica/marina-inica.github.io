@@ -1,0 +1,2 @@
+{% assign item = site[include.coll] | where: "slug", include.item | first %}
+<a href="{{ item.url }}" class="{{include.class}}">{{item.title}}</a>

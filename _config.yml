@@ -2,25 +2,35 @@
 title: Marina Íñiguez
 subtitle: 
 email: marinainiguezcalero@gmail.com
-description: 'Artista interdisciplinar, enfocada en escultura y artes audiovisuales'
+description: 'Artista visual'
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author: Alejandro Garcia De La Fuente
-# street_address: 1234 Somewhere Road
-# city: Nashville
-# state: TN
-# zip_code: 55555
-# country: United States of America
+author: 
+  name: Alejandro Garcia De La Fuente
+  url: https://github.com/Alejandro-GDLF
 phone: 642 821 290
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
+contact:
+  - name: email
+    svg: envelope.svg
+    value: marinainiguezcalero@gmail.com
+    link: "mailto:marinainiguezcalero@gmail.com"
+    
+  - name: phone
+    svg: phone.svg
+    value: 642 821 290
+    link: "tel:+34642821290"
+  
+  - name: instagram
+    svg: instagram.svg
+    value: marina_inica
+    link: https://www.instagram.com/marina_inica
+
+
 socials:
   GitHub:
   GitLab:
@@ -36,6 +46,7 @@ markdown: kramdown
 
 sass:
   style: compressed
+  sourcemap: always
 
 exclude:
 - "*.gemspec"
@@ -56,5 +67,9 @@ collections:
     permalink: /:collection/:name
 
   performance:
+    output: true
+    permalink: /:collection/:name
+  
+  instalation:
     output: true
     permalink: /:collection/:name

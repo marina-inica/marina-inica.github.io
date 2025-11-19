@@ -1,0 +1,56 @@
+thumbnail-index: 0
+images:
+  - name: La cuna 1
+    alt: >- 
+      Escena de performance: Íñiguez sentada con vestido blanco, sujetando un
+      cepillo en llamas rodeada de muñecas. Cepilla una de las muñecas.
+    formats:
+      webp:
+        low: /assets/images/performance/la-cuna/1/webp/200.webp
+        r600: /assets/images/performance/la-cuna/1/webp/600.webp
+        r900: /assets/images/performance/la-cuna/1/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/la-cuna/1/jpeg/200.jpeg
+        r600: /assets/images/performance/la-cuna/1/jpeg/600.jpeg
+        r900: /assets/images/performance/la-cuna/1/jpeg/900.jpeg
+  - name: La cuna 2
+    alt: >- 
+      Escena de performance: Muñecas dispuestas en una cortina blanca con acabados
+      de punto utilizada en la obra.
+    formats:
+      webp:
+        low: /assets/images/performance/la-cuna/2/webp/200.webp
+        r600: /assets/images/performance/la-cuna/2/webp/600.webp
+        r900: /assets/images/performance/la-cuna/2/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/la-cuna/2/jpeg/200.jpeg
+        r600: /assets/images/performance/la-cuna/2/jpeg/600.jpeg
+        r900: /assets/images/performance/la-cuna/2/jpeg/900.jpeg
+  - name: La cuna 3
+    alt: >- 
+      Escena de performance: Íñiguez -sentada rodeada de muñecas y con la cortina como capa-
+      se peina con el cepillo de cerillas que posteriormente usará en el resto de la obra.
+    formats:
+      webp:
+        low: /assets/images/performance/la-cuna/3/webp/200.webp
+        r600: /assets/images/performance/la-cuna/3/webp/600.webp
+        r900: /assets/images/performance/la-cuna/3/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/la-cuna/3/jpeg/200.jpeg
+        r600: /assets/images/performance/la-cuna/3/jpeg/600.jpeg
+        r900: /assets/images/performance/la-cuna/3/jpeg/900.jpeg
+  
+  - name: La cuna 4
+    alt: >- 
+      Escena de performance: Íñiguez -sentada rodeada de muñecas y con la cortina como capa-
+      se peina con el cepillo de cerillas que posteriormente usará en el resto de la obra.
+    formats:
+      webp:
+        low: /assets/images/performance/la-cuna/4/webp/200.webp
+        r600: /assets/images/performance/la-cuna/4/webp/600.webp
+        r900: /assets/images/performance/la-cuna/4/webp/900.webp
+      jpeg:
+        low: /assets/images/performance/la-cuna/4/jpeg/200.jpeg
+        r600: /assets/images/performance/la-cuna/4/jpeg/600.jpeg
+        r900: /assets/images/performance/la-cuna/4/jpeg/900.jpeg
+        

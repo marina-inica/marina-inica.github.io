@@ -1,0 +1,20 @@
+:root {
+    --bg:				#FFFFFF;
+    --bg-alt:			#FFFFFF;
+    --fg:				#000000;
+    --fg-bold:			#000000;
+    --fg-light:			rgba(45, 45, 45, 0.87);
+    --border:			rgba(110, 110, 110, 0.697);
+    --border-bg:		rgba(110, 110, 110, 0.035);
+    --highlight:		#9d9d9d;
+    --accent1:			#cccccc;
+    --accent2:			#787878;
+    --accent3:			#3c3c3c;
+    --accent4:			#575757;
+    --accent5:			#464646;
+    --accent6:			#797b7a;
+
+    --font:             'Source Sans Pro', Helvetica, sans-serif;
+
+    --menu-button-z-index: 99;
+}

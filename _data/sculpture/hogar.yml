@@ -1,0 +1,46 @@
+thumbnail-index: 2
+images:
+  - name: Hogar
+    alt: >- 
+      Escultura: Seis setas hechas de latón con un pezón en sus sombreros, dispuestas
+      en una tela de seda blanca.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/hogar/1/webp/200.webp
+        r600: /assets/images/sculpture/hogar/1/webp/600.webp
+        r900: /assets/images/sculpture/hogar/1/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/hogar/1/jpeg/200.jpeg
+        r600: /assets/images/sculpture/hogar/1/jpeg/600.jpeg
+        r900: /assets/images/sculpture/hogar/1/jpeg/900.jpeg
+  
+  - name: Hogar
+    alt: >- 
+      Escultura: Tres setas hechas de latón con un pezón en sus sombreros, dispuestas
+      en una tela de seda blanca.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/hogar/2/webp/200.webp
+        r600: /assets/images/sculpture/hogar/2/webp/600.webp
+        r900: /assets/images/sculpture/hogar/2/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/hogar/2/jpeg/200.jpeg
+        r600: /assets/images/sculpture/hogar/2/jpeg/600.jpeg
+        r900: /assets/images/sculpture/hogar/2/jpeg/900.jpeg
+
+  - name: Hogar
+    alt: >- 
+      Escultura: Setas hechas de latón con un pezón en sus sombreros, dispuestas
+      en una tela de seda blanca. Como pie tiene pequeñas piernas de niño o muñeco.
+      
+    formats:
+      webp:
+        low: /assets/images/sculpture/hogar/3/webp/200.webp
+        r600: /assets/images/sculpture/hogar/3/webp/600.webp
+        r900: /assets/images/sculpture/hogar/3/webp/900.webp
+      jpeg:
+        low: /assets/images/sculpture/hogar/3/jpeg/200.jpeg
+        r600: /assets/images/sculpture/hogar/3/jpeg/600.jpeg
+        r900: /assets/images/sculpture/hogar/3/jpeg/900.jpeg

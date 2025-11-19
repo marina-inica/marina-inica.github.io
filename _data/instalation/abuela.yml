@@ -1,0 +1,111 @@
+thumbnail-index: 3
+images:
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación en la UPV de Valencia: Se observa una pequeña instancia
+      en la esquina de la imagen. La estancia tiene una mecedora, un brasero
+      y una cortina de bordados con notas con mensajes
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/1/webp/200.webp
+        r600: /assets/images/instalation/abuela/1/webp/600.webp
+        r900: /assets/images/instalation/abuela/1/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/1/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/1/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/1/jpeg/900.jpeg
+  
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación La habitación de la abuela (Marina Íñiguez): Se observa a una 
+      persona colocando una nota en una cortina de bordados. A su espalda, hay 
+      una mecedora y un brasero.
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/2/webp/200.webp
+        r600: /assets/images/instalation/abuela/2/webp/600.webp
+        r900: /assets/images/instalation/abuela/2/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/2/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/2/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/2/jpeg/900.jpeg
+  
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación en la UPV de Valencia: Se observa una pequeña instancia
+      en la esquina de la imagen. La estancia tiene una mecedora, un brasero
+      y una cortina de bordados con notas con mensajes
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/3/webp/200.webp
+        r600: /assets/images/instalation/abuela/3/webp/600.webp
+        r900: /assets/images/instalation/abuela/3/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/3/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/3/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/3/jpeg/900.jpeg
+  
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación en la UPV de Valencia: Se observa una pequeña instancia
+      en la esquina de la imagen. La estancia tiene una mecedora, un brasero
+      y una cortina de bordados con notas con mensajes
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/4/webp/200.webp
+        r600: /assets/images/instalation/abuela/4/webp/600.webp
+        r900: /assets/images/instalation/abuela/4/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/4/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/4/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/4/jpeg/900.jpeg
+  
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación en la UPV de Valencia: La habitación de la abuela. Se puede
+      observar en la imagen una nota con una confesion hacia una madre colgada
+      de una cortina con bordados
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/5/webp/200.webp
+        r600: /assets/images/instalation/abuela/5/webp/600.webp
+        r900: /assets/images/instalation/abuela/5/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/5/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/5/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/5/jpeg/900.jpeg
+
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación en la UPV de Valencia: La habitación de la abuela. Una cortina
+      de bordados con notas colgadas de imperdibles.
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/6/webp/200.webp
+        r600: /assets/images/instalation/abuela/6/webp/600.webp
+        r900: /assets/images/instalation/abuela/6/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/6/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/6/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/6/jpeg/900.jpeg
+  
+  - name: Instalación de la habitación de la abuela
+    alt: >- 
+      Instalación en la UPV de Valencia: La habitación de la abuela.
+      Una mecedora con una caja de costura en frente de un brasero
+      
+    formats:
+      webp:
+        low: /assets/images/instalation/abuela/7/webp/200.webp
+        r600: /assets/images/instalation/abuela/7/webp/600.webp
+        r900: /assets/images/instalation/abuela/7/webp/900.webp
+      jpeg:
+        low: /assets/images/instalation/abuela/7/jpeg/200.jpeg
+        r600: /assets/images/instalation/abuela/7/jpeg/600.jpeg
+        r900: /assets/images/instalation/abuela/7/jpeg/900.jpeg

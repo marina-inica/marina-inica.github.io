@@ -2,18 +2,23 @@
 layout: home
 title: Home
 landing-title: 'Marina Íñiguez'
-description: null
+description: Something
 image: null
 author: null
 show_tile: false
+
+description: >-
+    Marina Íñiguez es una artista visual que reflexiona sobre la tradición y las 
+    costumbres a través de la escultura, instalación, performance y artes
+    audiovisuales. Íñiguez propone una investigación poética sobre el territorio,
+    la identidad y las formas de habitar el espacio contemporáneo utilizando
+    materiales naturales y procesos sostenibles
+
+keywords: artista visual escultura tradición costumbres instalación performance artes
 ---
 
-Nacida en el año 2001, Marina Íñiguez es una artista interdisciplinar que se mueve entre la **escultura y las artes audiovisuales**.
+Marina Íñiguez (Villarrobledo, 2001) es una artista interdisciplinar cuya práctica se despliega entre **la escultura, la instalación, la performance y las artes audiovisuales**. Su trabajo se articula en torno a la creación de experiencias inmersivas que dialogan con **la memoria, la tradición y la relación sensorial con la materia**. A través del uso de materiales naturales y procesos sostenibles, Íñiguez propone una investigación poética sobre el territorio, la identidad y las formas de habitar el espacio contemporáneo.
 
-Se introdujo en el mundo del arte con 7 años en la escuela de música de **Tomás de Torrejón y Velasco**.
+Graduada en Bellas Artes por la **Universidad Politécnica de Valencia (UPV)**, donde actualmente cursa el **Máster en Producción Artística**, desarrolla una práctica que combina lo conceptual y lo orgánico, lo ritual y lo cotidiano. Ha formado parte del colectivo **CELDA-19**, con el que inició su trayectoria expositiva, y ha presentado su obra en Villarrobledo, Valencia y Cuba.
 
-Posteriormente, cursó bachillerato artístico en su pueblo natal: **Villarobledo**. También, se unió a **CELDA-19**, un colectivo de artistas de su misma localidad a través del cual ha ido explorando el arte y dándose a conocer.
-
-Es licenciada en **Bellas Artes en la UPV** y actualmente cursa estudio de **Máster en Producción Artística** en la misma universidad.
-
-Ha expuesto su obra en varios lugares tales como **Villarobledo**, **Valencia** y **Cuba**. Su interés artístico es adentrar al espectador en sus obras principalmente inmersivas y conceptuales.
+Actualmente es **artista residente en el Centro de Creadores Contemporáneos de Cuenca**, dentro del programa de la **Fundación Antonio Gala**, donde continúa profundizando en los vínculos entre materia, cuerpo y paisaje.

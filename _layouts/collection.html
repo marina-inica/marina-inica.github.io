@@ -1,48 +1,55 @@
 <!DOCTYPE html>
-<!--
-    Forty by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  -->
-<html>
+<html lang="es">
 
-  {% include head.html %}
-
+  <head>
+    {% include head.html %}
+  </head>
+  
   <body>
 
     {% include header.html %} 
     
-    
-    <!-- Main -->
-    <div id="main" class="alt">
+    <main>
+      <h1>{{page.title}}</h1>
 
-      <!-- One -->
-      <section id="one">
-        <div class="inner">
-            {% for p in site[page.tema] %}
-            {% assign mod = forloop.index0 | modulo: 2 %}
-            {% if mod == 0 %}
-              {% assign side = "left" %}
-            {% else %}
-                {% assign side = "right" %}
+      <nav class="links">
+        {% for col in site.pages %}
+          {% if col.layout == "collection" %}
+            <a href="{{ col.url | absolute_url }}"
+             class="{% if col.name == page.name %}active{% endif %}"
+            >{{col.title}}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <section class="collage">
+        {% for p in site[page.tema] %}
+          {% assign keys = p.gallery | split: '/' %}
+          {% assign obj = site.data %}
+          {% for k in keys %}
+            {% if obj[k] %}
+              {% assign obj = obj[k] %}
             {% endif %}
-
-            {% include imgsidecap.html 
-              img-side=side
-              post=p
-              collName=page.tema
-            %}
-
-            {% unless forloop.last %}
-                <hr>
-            {% endunless %}
-            {% endfor %}
-        </div>
+          {% endfor %}
+          
+          {% assign thumbnail = obj.images[obj.thumbnail-index] %}
+          <article class="collage__item artwork">
+            <a href="{{ p.url | absolute_url }}">
+              <figure>
+                <img 
+                  loading="lazy"
+                  src="{{ thumbnail.formats.jpeg.r600 | relative_url }}" />
+                <figcaption>{{ p.title }}</figcaption>
+              </figure>
+            </a>
+          </article>
+        {% endfor %}
       </section>
 
-    </div>
+    </main>
 
     {% include footer.html %}
+
+    {% include menu.html %}
 
   </body>
 

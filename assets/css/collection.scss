@@ -1,0 +1,58 @@
+---
+---
+
+h1 {
+    border: none;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+main {
+    max-width: 450px;
+    margin-inline: auto;
+
+    .links {
+        font-size: 1.2em;
+
+        padding: .5em;
+
+        display: flex;
+        gap: 1rem;
+        
+        .active {
+            font-weight: 600;
+        }
+    }
+
+    .collage {
+        border-top: 1px solid var(--fg-light);
+        padding: 2em;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+
+        &__item {
+            figure {
+                margin-inline: auto;
+            }
+
+            img {
+                display: block;
+                aspect-ratio: 16 / 9;
+
+                background-color: var(--accent6);
+                
+                object-position: center;
+                object-fit: cover;
+                margin-inline: auto;
+            }
+
+            figcaption {
+                margin-inline: auto;
+                width: fit-content;
+            }
+        }
+    }
+}

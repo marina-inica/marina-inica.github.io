@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "assets/css/sscollection.css" | relative_url }}" />
+</head>
+<body>
+    {% include header.html %}
+
+    <main>
+        <h1 class="collection-h1">
+            {{ page.title }}
+        </h1>
+        <nav class="links">
+            {% for col in site.pages %}
+                {% if col.layout == "sscollection" %}
+                <a href="{{ col.url | absolute_url }}"
+                    class="{% if col.name == page.name %}active{% endif %}"
+                >{{col.title}}</a>
+                {% endif %}
+            {% endfor %}
+        </nav>
+
+        
+        <section class="collage">
+        {% for p in site[page.tema] %}
+            {% assign keys = p.gallery | split: '/' %}
+            {% assign obj = site.data %}
+            {% for k in keys %}
+            {% if obj[k] %}
+                {% assign obj = obj[k] %}
+            {% endif %}
+            {% endfor %}
+            
+            {% assign thumbnail = obj.images[obj.thumbnail-index] %}
+            <article class="collage__item artwork">
+                <a class="inner" href="{{ p.url | absolute_url }}">
+                    {% assign mod = forloop.index0 | modulo: 2 %}
+                    {% if mod == 0 %}
+                    <div class="left text">
+                        <h1>{{ p.title }}{% if p.year %}, {{ p.year }}{% endif %}</h1>
+                        <p>{{ p.material }}</p>
+                    </div>
+                    {% endif %}
+
+                    <div
+                        {% if mod == 0 %}
+                            class="right image"
+                        {% else %}
+                            class="left image"
+                        {% endif %}
+                    >
+                        {% include image.html img=thumbnail %}
+                    </div>
+
+                    {% if mod == 1 %}
+                    <div class="right text">
+                        <h1>
+                            {{ p.title }}
+                            {% if p.year %}
+				                , {{ p.year }}
+			                {% endif %}
+                        </h1>
+                        <p>{{ p.material }}</p>
+                    </div>
+                    {% endif %}
+                </a>
+            </article>
+        {% endfor %}
+        </section>
+    </main>
+
+    {% include footer.html %}
+
+    {% include menu.html %}
+</body>
+</html>
