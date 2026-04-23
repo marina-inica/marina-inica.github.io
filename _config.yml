@@ -57,7 +57,6 @@ exclude:
 # Plugins
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Collections
 collections_dir: mycollections
