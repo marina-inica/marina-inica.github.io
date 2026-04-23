@@ -30,6 +30,11 @@
     width: fit-content;
 }
 
+#bio a {
+    text-decoration: underline;
+    text-decoration-skip: dotted;
+}
+
 .tiles {
     display: flex;
     flex-wrap: wrap;
