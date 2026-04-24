@@ -53,6 +53,8 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- generate_images.ps1
+- Gemfile
 
 # Plugins
 plugins:

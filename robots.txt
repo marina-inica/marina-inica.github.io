@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://marina-inica.github.io/sitemap.xml
+Sitemap: https://marina-inica.github.io/sitemap/sitemap.xml
